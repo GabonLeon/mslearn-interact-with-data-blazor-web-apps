@@ -13,7 +13,15 @@ namespace BlazingPizza
         public const int MaximumSize = 17;
 
         public int Id { get; set; }
+        public string Name { get; set; }
 
+        public string Description { get; set; }
+
+        public decimal Price { get; set; }
+
+        public bool Vegetarian { get; set; }
+
+        public bool Vegan { get; set; }
         public int OrderId { get; set; }
 
         public PizzaSpecial Special { get; set; }
